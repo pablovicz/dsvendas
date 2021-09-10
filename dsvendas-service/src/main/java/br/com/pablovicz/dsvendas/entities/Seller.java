@@ -24,9 +24,13 @@ public class Seller {
 	private List<Sale> sales = new ArrayList<>();
 	
 	
+	public Seller() {
+		
+	}
+	
+	
 	
 	public Seller(Long id, String name) {
-		super();
 		this.id = id;
 		this.name = name;
 	}
